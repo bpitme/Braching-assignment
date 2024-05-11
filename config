@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "Branching-assignment"]
+	url = The-Tech-Academy-Basic-C-Sharp-Projects.
+	fetch = +refs/heads/*:refs/remotes/Branching-assignment/*
+[remote "Braching-assignment"]
+	url = https://github.com/bpitme/Braching-assignment.git
+	fetch = +refs/heads/*:refs/remotes/Braching-assignment/*

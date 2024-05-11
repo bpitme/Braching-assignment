@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
+using System.Linq;
+using System.Runtime.Remoting.Lifetime;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Branching_Assignment
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome to Package Express.");
+            Console.ReadLine();
+            int packageweight = 40;
+            int packagewidth  = 10;
+            int packageheight = 12;
+            int packagelength = 11;
+
+            if (packageweight > packagewidth && packageheight < packagelength)
+            {
+                Console.WriteLine("Your estimated total for shipping this package is: $528.00 Thank you!");
+                Console.ReadLine();
+
+            } 
